@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1540984328 source:c:\users\hp\desktop\bigdecimalclass\main.cpp
+	<iostream>
+	"bigdecimalint.h"
+	<string>
+
+1541004041 source:c:\users\hp\desktop\bigdecimalclass\bigdecimalint.cpp
+	"bigdecimalint.h"
+	<iostream>
+	<string>
+
+1541003899 c:\users\hp\desktop\bigdecimalclass\bigdecimalint.h
+	<iostream>
+	<string>
+
+1542561015 source:f:\fci\second year\programming 2\projects\assignment 2\task 3\bigdecimalclass\main.cpp
+	<iostream>
+	"bigdecimalint.h"
+	<string>
+
+1541056449 f:\fci\second year\programming 2\projects\assignment 2\task 3\bigdecimalclass\bigdecimalint.h
+	<iostream>
+	<string>
+
+1541071661 source:f:\fci\second year\programming 2\projects\assignment 2\task 3\bigdecimalclass\bigdecimalint.cpp
+	"bigdecimalint.h"
+	<iostream>
+	<string>
+
+1541071661 source:f:\fci\second year\new folder\programming 2\projects\assignment 2\task 3\bigdecimalclass\bigdecimalint.cpp
+	"bigdecimalint.h"
+	<iostream>
+	<string>
+
+1541056449 f:\fci\second year\new folder\programming 2\projects\assignment 2\task 3\bigdecimalclass\bigdecimalint.h
+	<iostream>
+	<string>
+
+1542561015 source:f:\fci\second year\new folder\programming 2\projects\assignment 2\task 3\bigdecimalclass\main.cpp
+	<iostream>
+	"bigdecimalint.h"
+	<string>
+
+1542561015 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\hema\bigdecimalclass\main.cpp
+	<iostream>
+	"bigdecimalint.h"
+	<string>
+
+1551265539 d:\education\college\second year\second term\data structures\assignments\assignment 1\hema\bigdecimalclass\bigdecimalint.h
+	<iostream>
+	<string>
+
+1553767498 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p1_20170022_20170192_20170002\bigdecimalint.cpp
+	"bigdecimalint.h"
+	<iostream>
+	<string>
+
+1552050315 d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p1_20170022_20170192_20170002\bigdecimalint.h
+	<iostream>
+	<string>
+

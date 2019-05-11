@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1551778045 source:c:\users\hp\desktop\fraction\fraction.cpp
+	"fraction.h"
+	<iostream>
+
+1551778168 c:\users\hp\desktop\fraction\fraction.h
+	<iostream>
+
+1551777199 source:c:\users\hp\desktop\fraction\main.cpp
+	<iostream>
+	"fraction.h"
+	"fraction_calculator.h"
+
+1551778118 source:c:\users\hp\desktop\fraction\fraction_calculator.cpp
+	"fraction_calculator.h"
+	"fraction.h"
+
+1551776979 c:\users\hp\desktop\fraction\fraction_calculator.h
+	"fraction.h"
+
+1551809189 source:c:\users\ahmed\downloads\fraction\fraction.cpp
+	"fraction.h"
+	<iostream>
+
+1551778168 c:\users\ahmed\downloads\fraction\fraction.h
+	<iostream>
+
+1551807321 source:c:\users\ahmed\downloads\fraction\fraction_calculator.cpp
+	"fraction_calculator.h"
+	"fraction.h"
+
+1551776979 c:\users\ahmed\downloads\fraction\fraction_calculator.h
+	"fraction.h"
+
+1551809260 source:c:\users\ahmed\downloads\fraction\main.cpp
+	"fraction_calculator.h"
+
+1551809189 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\fraction\fraction.cpp
+	"fraction.h"
+	<iostream>
+
+1551778168 d:\education\college\second year\second term\data structures\assignments\assignment 1\fraction\fraction.h
+	<iostream>
+
+1551807321 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\fraction\fraction_calculator.cpp
+	"fraction_calculator.h"
+	"fraction.h"
+
+1551776979 d:\education\college\second year\second term\data structures\assignments\assignment 1\fraction\fraction_calculator.h
+	"fraction.h"
+
+1551809260 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\fraction\main.cpp
+	"fraction_calculator.h"
+
+1551807321 source:d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction_calculator.cpp
+	"fraction_calculator.h"
+	"fraction.h"
+
+1551776979 d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction_calculator.h
+	"fraction.h"
+
+1551778168 d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction.h
+	<iostream>
+
+1551809260 source:d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\main.cpp
+	"fraction_calculator.h"
+
+1552050354 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction.cpp
+	"fraction.h"
+	<iostream>
+
+1552050364 d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction.h
+	<iostream>
+
+1552050379 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction_calculator.cpp
+	"fraction_calculator.h"
+	"fraction.h"
+
+1552050373 d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\fraction_calculator.h
+	"fraction.h"
+
+1552050347 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p2_20170022_20170192_20170002\main.cpp
+	"fraction_calculator.h"
+

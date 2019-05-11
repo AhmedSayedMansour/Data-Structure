@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1551738537 source:c:\users\ahmed\downloads\programs\matrix\matrix.cpp
+
+1551742650 source:c:\users\ahmed\downloads\programs\matrix\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"matrix.h"
+	<conio.h>
+
+1551741893 c:\users\ahmed\downloads\programs\matrix\matrix.h
+	<iostream>
+	<iomanip>
+	<cassert>
+
+1551779922 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\matrix.cpp
+
+1551781807 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\main.cpp
+	"Menu.h"
+
+1551850145 d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\matrix.h
+	<iostream>
+	<bits/stdc++.h>
+	<iomanip>
+
+1551780322 source:d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\menu.cpp
+	"Menu.h"
+
+1551782558 d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\menu.h
+	"matrix.h"
+	<conio.h>
+
+1551779818 d:\education\college\second year\second term\data structures\assignments\assignment 1\matrix\menu.cpp
+
+1552051250 source:d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\main.cpp
+	"Menu.h"
+
+1552051332 d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\menu.h
+	"matrix.h"
+	<conio.h>
+
+1551944273 d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\matrix.h
+	<iostream>
+	<bits/stdc++.h>
+	<iomanip>
+
+1551780322 source:d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\menu.cpp
+	"Menu.h"
+
+1551944267 source:d:\education\college\second year\second term\data structures\assignments\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\matrix.cpp
+
+1551944267 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\matrix.cpp
+
+1551780322 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\menu.cpp
+	"Menu.h"
+
+1552051332 d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\menu.h
+	"matrix.h"
+	<conio.h>
+
+1551944273 d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\matrix.h
+	<iostream>
+	<bits/stdc++.h>
+	<iomanip>
+
+1552051372 source:d:\education\college\second year\second term\data structures\assignments\a1\a1_20170022_20170192_20170002\a1_p3_20170022_20170192_20170002\main.cpp
+	"Menu.h"
+
