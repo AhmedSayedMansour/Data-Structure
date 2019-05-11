@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1553951151 source:c:\users\ahmed\downloads\a2_p1_20170002_20170022_20170192\book.cpp
+	"Book.h"
+
+1553950038 c:\users\ahmed\downloads\a2_p1_20170002_20170022_20170192\book.h
+	<iostream>
+	<bits/stdc++.h>
+
+1553950019 source:c:\users\ahmed\downloads\a2_p1_20170002_20170022_20170192\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"Book.h"
+	"Menu.h"
+
+1553950048 c:\users\ahmed\downloads\a2_p1_20170002_20170022_20170192\menu.h
+	"Book.h"
+	<conio.h>
+
+1553951123 source:c:\users\ahmed\downloads\a2_p1_20170002_20170022_20170192\menu.cpp
+	"Menu.h"
+
+1553951151 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_p1_20170002_20170022_20170192\book.cpp
+	"Book.h"
+
+1553950038 d:\education\college\second year\second term\data structures\assignments\a2\a2_p1_20170002_20170022_20170192\book.h
+	<iostream>
+	<bits/stdc++.h>
+
+1553950019 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_p1_20170002_20170022_20170192\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"Book.h"
+	"Menu.h"
+
+1553950048 d:\education\college\second year\second term\data structures\assignments\a2\a2_p1_20170002_20170022_20170192\menu.h
+	"Book.h"
+	<conio.h>
+
+1553951123 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_p1_20170002_20170022_20170192\menu.cpp
+	"Menu.h"
+
+1555237576 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p1_20170002_20170022_20170192\book.cpp
+	"Book.h"
+
+1553950038 d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p1_20170002_20170022_20170192\book.h
+	<iostream>
+	<bits/stdc++.h>
+
+1553951123 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p1_20170002_20170022_20170192\menu.cpp
+	"Menu.h"
+
+1553950048 d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p1_20170002_20170022_20170192\menu.h
+	"Book.h"
+	<conio.h>
+
+1553951714 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p1_20170002_20170022_20170192\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"Book.h"
+	"Menu.h"
+

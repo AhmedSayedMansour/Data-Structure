@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1552347952 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_p5_id1_id2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+
+1553944087 source:d:\education\college\second year\second term\data structures\assignments\a2\problem_5\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+	<ctime>
+	<cstdlib>
+
+1553944087 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_p5_20170002_20170022_20170192\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+	<ctime>
+	<cstdlib>
+
+1554059244 source:d:\education\college\second year\second term\data structures\assignments\a2\a2_20170002_20170022_20170192_g1\a2_p5_20170002_20170022_20170192\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+	<ctime>
+	<cstdlib>
+
