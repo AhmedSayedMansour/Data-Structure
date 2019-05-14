@@ -293,3 +293,210 @@ item by item, it will compare quickly using binary search but it will still shif
 Plot the performance of the algorithm against the original insertion sort.
 
 Name a folder “A2_P6_ID1_ID2” and put your files inside it (even if it’s only one file)
+
+
+# Assignment 3 :-
+
+
+# Problem 1(Linked List with an Inner class iterator):
+
+In this problem, you should develop a linked list class similar to that provided in the C++ STL.
+The public interface of your class should provide basic insertion and deletion functions. In
+addition, it should provide an iterator class as an inner class in order to access the data stored
+in the list. For example, if we have a list of three elements, and want to access the second
+element, we should declare an iterator and initialize it to the position of the first element, and
+move to the second position as shown in the code below:
+
+list<int> myList;
+myList.push_back(1);
+myList.push_back(2);
+myList.push_back(3);
+list<int>::iterator it = myList.begin();
+it++;
+cout<< *it;
+  
+notice the usage of the scope operator in the declaration of the iterator, this is because the
+iterator class is defined as an inner class inside the list class:
+template<class type>
+class myList {
+public:
+class iterator {
+// your code for the iterator class here
+};
+// your code for the list class her
+};
+  
+Your list class should be a template class.
+The list class should have the following public interface:
+
+● list() – default constructor.
+
+● list(type value, int initial_size) – constructs a list having ‘initial_size’
+elements whose values are ‘value’.
+
+● ~list() – a destructor to clear the list and leave no memory leaks. 
+
+● int size() – returns the current number of elements in the list.
+
+● void insert(type value, iterator position)
+adds an element at position specified by the iterator. For example, if the passed iterator
+currently points to the second element, this element will be shifted on position, and the
+new value should be added at the second position.
+
+● iterator erase(iterator position) – erases the element specified by the
+iterator and return an iterator to the next element, throws exception if position points
+after the last element.
+
+● list<type>& operator = (list<type> another_list) – overloads the
+assignment operator to deep copy a list into another list and return the current list by
+reference.
+
+● iterator begin() – returns an iterator pointing to the first element. 
+
+● iterator end() – returns an iterator pointing after the last element. 
+
+● You should develop an iterator class the following public interface:
+
+○ void operator ++ () – overloads the operator ++, it should advance the
+iterator one position towards the end of the list, throws exception if it is
+currently pointing after the last element.
+○ void operator -- () – overloads the operator --, it should move the
+iterator one position toward the beginning of the list, throws exception if it is
+currently pointing to the first element of the list.
+○ type& operator * () – overloads the dereference operator to return the
+value contained in the current node by refence to allow its modification.
+○ bool operator == (const iterator &) – overloads the equality
+comparison operator, should return true if the passed operator points to the
+same node. 
+
+● All node pointers in the list class of the iterator class should be private and inaccessible
+from outside of the class. 
+
+● No memory leaks or dangling pointers. 
+
+● It is highly recommended to implement it as a double linked list, however, it is up to
+you.
+As mentioned above, our .end() function should return an iterator pointing to a position after
+the last element as the STL .end() function does. This can be done easily by having a dummy
+node after the actual tail, this dummy node contains no data, but mark the end of the list. So,
+physically, our list is never empty, which will ease the implementation of insertion and remove
+operations, as now we don’t have to handle an “empty list” case. However, this dummy node
+should be disregarded when we return the size.
+
+● Write a main function to test all the above.
+
+# Problem 2(merging two sorted linked lists):
+
+In this problem, you must use C++ STL linked list. Given two sorted linked lists, merge them in
+the first one without using an extra list, and without keeping any duplicates.
+Write a main function to test.
+
+# problem 3(Stack):
+
+In this problem, you should develop a stack class similar to that provided in the C++ STL. You
+can use arrays or your linked list class developed in the previous problem as an underlying data
+structure, however, you cannot use any of the C++ STL classes in this problem.
+
+● Your stack class should be template.
+
+● The stack class should have the following public interface:
+
+○ stack() – default constructor.
+○ stack(type value, int intial_size) constructs a stack having
+‘initial_size’ elements whose values are ‘value’.
+○ ~stack() – a destructor to clear the stack and leave no memory leaks.
+○ type& top() – returns the top element by reference.
+○ void pop() – removes the top element.
+○ void push(type value) – adds an element to the top of the stack.
+○ int size() – returns the number of elements in the stack.
+
+● Write a main function to test all the above.
+
+# problem 4(Brackets):
+
+In this problem, you must use C++ STL stack. Given an input string of brackets ‘(‘ and ‘)’, square
+brackets ‘*‘ and ‘+’, curly brackets ‘,‘ and ‘-’, and multiple line comment token ‘/*’ and ‘*/’,
+check if this string is valid or not.
+A string is considered valid if and only if:
+For each opened bracket, there should be a closing bracket of the same type.
+Each closing bracket should close the lastly opened bracket.
+Multiple line comment tokens consist of two characters, and any text between them should be
+ignored. However, they are treated the same way as brackets regarding the rules described
+above.
+([{}])(){}[]{[]} – valid.
+({)} – invalid.
+({/*)}]]]]]]}*/}) – valid.
+({/*[][[]]]]]}) – invalid, the comment is not closed.
+[{/*******/}] – valid.
+
+Write a main function to test.
+
+# problem 5(Is palindrome):
+
+A String is said to be Palindrome if it is equal to itself in reverse order. You can use this
+logic to check if String is Palindrome or not. For example, “abba” is palindrome, but
+“abbc” is not palindrome.
+
+● Implement this function
+bool isPalindrome(string a)
+
+● You SHOULD use stack to solve this problem
+
+● Write a main function to test .
+
+# problem 6(Queues):
+
+In this problem, you should develop a queue class similar to that provided in the C++ STL. You
+can use arrays or your linked list class developed in the previous problem as an underlying data
+structure, however, you cannot use any of the C++ STL classes in this problem.
+
+● Your queue class should be template.
+
+● The queue class should have the following public interface:
+
+○ queue() – default constructor.
+○ queue(type value, int intial_size) – constructs a queue having
+‘initial_size’ elements whose values are ‘value’.
+○ ~queue() – a destructor to clear the queue and leave no memory leaks.
+○ type& front() – returns the first element by reference.
+○ void pop() – removes the first element. 
+○ void push(type value) – adds an element to the back of the queue.
+○ int size() – returns the number of elements in the queue.
+
+● Write a main function to test all the above.
+
+# problem 7(Priority Queue):
+
+Priority Queue is an extension of queue with following properties.
+
+1. Every item has a priority associated with it.
+2. An element with high priority is dequeued before an element with low priority.
+3. If two elements have the same priority, they are served according to their order in
+the queue.
+
+Implement:
+
+● string enqueue(string value, int priority)
+
+● string dequeue() - dequeue according to the priority
+
+● Write a main function to test .
+
+Example:
+q.enqueue(“world”, 10)
+q.enqueue(“Hello”, 5)
+cout << q.dequeue() << “ “ << q.dequeue() <<endl;
+Hello world
+
+# Problem 8(Stack using queue):
+
+In this problem, you must use C++ STL queue. Reimplement part of the stack data structure
+using only one queue as an underlying data structure. Reimplement the class for ‘int’ data type
+only and with the following functions only:
+
+int top() – returns the top element. 
+void pop() – removes the top element. 
+void push(int value) – adds an element to the top of the stack.
+
+Write a main function to test .
+
